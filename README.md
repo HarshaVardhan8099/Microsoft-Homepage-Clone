@@ -5,5 +5,5 @@ Microsoft homepage clone built using HTML and CSS with Flexbox and Grid layout. 
 This is a frontend clone project built for learning purposes.
 The website is recreated using HTML, CSS/TailwindCSS.
 
-This project is not affiliated with Microsoft/Myntra/BMW.
+This project is not affiliated with Microsoft.
 It is only for educational and portfolio purposes.
