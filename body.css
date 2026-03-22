@@ -1,0 +1,218 @@
+#main-body{
+
+    height: auto;
+    width: 100%;
+    flex-direction: column;
+    gap: 120px;
+}
+
+.body-product{
+    height: 60vh;
+    width: 90%;
+
+    margin-top: 60px ;
+    display: grid;
+    border: var(--br);
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2%;
+}
+
+.body-banner{
+    height: 70vh;
+    width: 90%;
+    /* align-items: start ; */
+    justify-content: flex-start;
+    background-image: url("./Assets/Highlight-Hero-Windows11-GlobalLaunch_VP5-1596x600.avif");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.body-for-business{
+    height: 78vh;
+    width: 90%;
+
+    margin-bottom: 60px;
+}
+
+/* #float-button{
+    height: 60px;
+    width: 150px;
+
+    display: flex;
+    position:sticky;
+    border: var(--br);
+} */
+
+
+
+
+
+.b-items{
+    height: 100%;
+    box-shadow: 0.5px 0.5px 10px 3px rgba(0, 0, 0, 0.14);
+    flex-direction: column;
+}
+.p-img-cont{
+    height: 40%;
+    width: 100%;
+    border: var(--br);
+}.p-img-cont>img{height: 100%;
+width: 100%;}
+
+
+.p-content-cont{
+    height: 48%;
+    width: 85%;
+    flex-direction: column;
+    margin-bottom: 8%;
+    
+}
+.p-h1-p-cont{
+    flex-direction:column;
+    width: 100%;
+}
+.p-content-cont h1, .ib-h1-p h1{
+    text-transform: capitalize;
+    font-size: 38px;
+    align-self: flex-start;
+    font-weight: 600;
+    padding-bottom: 5%;
+}
+.p-content-cont p, .ib-h1-p p{
+    font-weight: 400;
+    font-size: 19px;
+    align-self: flex-start;
+    
+}
+
+
+.body-banner-cont{
+    flex-direction: column;
+    color: white;
+    height: auto;
+    margin-left: 150px;
+
+    height: 50%;width: 32%;
+}
+.body-banner-cont h1, .body-for-business>h1{
+    font-size: 48px;
+    font-weight: 500;
+    align-self: flex-start;
+}
+.body-banner-cont p{
+    font-size: 22px;
+}
+#new{
+    height: 20px;
+    width: 20px;
+    display: flex;
+    color: yellowgreen;
+    position: absolute;
+}
+
+
+
+
+.body-for-business{
+    flex-direction: column;
+}
+.business-cont{
+    height: 90%;
+    width: 100%;
+    border: var(--br);
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2%;
+}
+.items-business{
+    height: 100%;
+    box-shadow: 0.5px 0.5px 10px 3px rgba(0, 0, 0, 0.14);
+    flex-direction: column;
+}
+.items-business img{
+    height: 35%;
+    width: 100%;
+    border: var(--br);
+}
+.items-business-cont{
+    height: 50%;
+    width: 88%;
+    margin-bottom: 8%;
+    flex-direction: column;
+}
+.ib-h1-p{
+    flex-direction: column;
+}
+.ib-h1-p h1{
+    font-weight: 500;
+}
+
+
+
+
+#main-body button{
+    background-color: #0067B8;
+    border-radius: 3px;
+    border-width: 0px;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px 15px;
+    /* justify-self: flex-start ; */
+    align-self: flex-start;
+
+}#main-body button:hover{background-color: #01599c;}
+
+
+
+
+
+
+
+.social-links-cont{
+    height: 60px;
+    width: 90%;
+    display: flex;
+    border: var(--br);
+    margin-top: -55px;
+    align-items: center;
+    gap: 20px;
+}
+.social-links-cont h2{
+    font-weight: 400;
+    font-size: 20px;
+
+}
+.social-links-cont img{
+    height: 38px;
+
+}
+
+.back-to-top{
+    height: 60px;
+    width: 98%;
+    margin-top: -120px;
+    display: flex;
+    border: var(--br);
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    
+}
+.back-to-top>span{
+    height: 50px;
+    width: 170px;
+    font-size: 18px;
+    border-radius: 2px;
+    font-weight: 500;
+    background-color: rgb(221, 220, 220);
+   
+}.back-to-top>span:hover{background-color: white; box-shadow: 1px 1px 1px 2px rgba(0, 0, 0, 0.227);}
+
+.back-to-top img{
+    height: 25px;
+    padding-right: 10px;
+}
